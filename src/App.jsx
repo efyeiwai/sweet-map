@@ -626,7 +626,7 @@ const App = () => {
         <input
           type="text"
           placeholder="搜尋店家名稱..."
-          className="w-full p-4 rounded-lg border border-[#9B7EBD] shadow-md focus:ring-2 focus:ring-[#F49BAB] focus:border-[#F49999] transition-all duration-300"
+          className="w-full p-4 rounded-lg border border-[#9B7EBD] shadow-md focus:ring-2 focus:ring-[#F49BAB] focus:border-[#F49BAB] transition-all duration-300"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
