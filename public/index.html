@@ -10,3 +10,18 @@
     <div id="root"></div>
   </body>
 </html>
+EOF
+
+# 文件: src/index.js
+cat > src/index.js << EOF
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+// import './index.css'; // 移除此行，因為我們沒有這個檔案
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
