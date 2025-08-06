@@ -1,6 +1,7 @@
 {
   "name": "sweet-map",
   "version": "1.0.0",
+  "private": true,
   "description": "A dessert shop map powered by React.",
   "main": "src/index.js",
   "scripts": {
